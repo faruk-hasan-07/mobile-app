@@ -5,10 +5,32 @@
 }
 a{
 text-decoration: none;
+display: inline-block;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+body{
 
 }
 
-.header{}
-.header .iogo{}
-.header .logo a{}
-.header .logo a img{}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background: #efefef;
+
+
+}
+header .logo{
+color: #000;
+}
+header .logo a{
+  padding: 10px 30px;
+  color: #232323;
+}
+header .logo a img{
+  width: 60px;
+}
