@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  padding: 40px;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background: deeppink;
+}
