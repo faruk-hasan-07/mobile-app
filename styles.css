@@ -12,4 +12,12 @@ body{
   height: 100px;
   width: 100px;
   background: deeppink;
+  transition-duration: 1s;
+  transition-delay: .5s;
+
+}
+.box:hover{
+  background: red;
+  width: 200px;
+
 }
